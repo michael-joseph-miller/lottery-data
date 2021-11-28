@@ -1,0 +1,27 @@
+{
+  "name": "lib-starter",
+  "version": "1.0.0",
+  "description": "NPM library create and test template",
+  "author": "Michael Joseph Miller",
+  "private": false,
+  "license": "MIT",
+  "keywords": [],
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "watch": "parcel watch src/*.* src/**/*.*",
+    "prebuild": "rm -rf dist/**",
+    "build": "parcel build src/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-joseph-miller/lib-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michael-joseph-miller/lib-starter/issues"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}

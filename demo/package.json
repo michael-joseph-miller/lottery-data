@@ -1,0 +1,14 @@
+{
+  "name": "lib-starter-demo",
+  "author": "Michael Joseph Miller",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel ./index.html --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "lib-starter",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Michael Joseph Miller",
+  "private": false,
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "install": "cd lib/ && npm i && cd ../demo/ && npm i && cd ../",
+    "start": "npm run build:lib && cd demo/ && npm start && cd ../",
+    "build": "npm run build:lib",
+    "version:major": "cd ../lib/ && npm version major && cd ../",
+    "version:minor": "cd ../lib/ && npm version minor && cd ../",
+    "version:patch": "cd ../lib/ && npm version patch && cd ../",
+    "link": "cd demo/ && npm link ../lib && cd ../",
+    "reset:all": "npm run reset:demo && npm run reset:lib && npm run reset",
+    "install:lib": "cd lib/ && npm i && cd ../",
+    "install:demo": "cd demo/ && npm i && cd ../",
+    "build:lib": "cd lib/ && npm run build && cd ../",
+    "reset": "rm -rf node_modules/ dist/ .parcel-cache/ package-lock.json",
+    "reset:lib": "cd lib/ && rm -rf node_modules/ dist/ .parcel-cache/ package-lock.json && cd ../",
+    "reset:demo": "cd demo/ && rm -rf node_modules/ dist/ .parcel-cache/ package-lock.json && cd ../"
+  },
+  "homepage": "https://github.com/michael-joseph-miller/lib-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-joseph-miller/lib-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michael-joseph-miller/lib-starter/issues"
+  }
+}
