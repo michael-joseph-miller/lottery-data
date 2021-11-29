@@ -1,4 +1,20 @@
-import { add, subtract } from 'lib-starter';
+import lotteryData from 'lottery-data';
 
-console.log(add([1, 2, 3, 4, 5]));
-console.log(subtract([1, 2, 3, 4, 5]));
+(async () => {
+  // await lotteryData
+  //   .latestMegaMillionsDrawing()
+  //   .then((res) => console.log(res))
+  //   .catch((error) => console.log(error));
+  // await lotteryData
+  //   .latestPowerballDrawing()
+  //   .then((res) => console.log(res))
+  //   .catch((error) => console.log(error));
+  // await lotteryData
+  //   .megaMillionsHistory()
+  //   .then((res) => console.log(res))
+  //   .catch((error) => console.log(error));
+  // await lotteryData
+  //   .powerballHistory()
+  //   .then((res) => console.log(res))
+  //   .catch((error) => console.log(error));
+})();

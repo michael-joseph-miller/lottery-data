@@ -3,10 +3,12 @@
   "author": "Michael Joseph Miller",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "",
-  "source": "index.html",
+  "source": "./index.js",
+  "type": "module",
   "scripts": {
-    "start": "parcel ./index.html --open"
+    "start": "parcel ./index.html",
+    "node": "node index.js",
+    "link": "npm link ../lib"
   },
   "devDependencies": {
     "parcel": "^2.0.1"
