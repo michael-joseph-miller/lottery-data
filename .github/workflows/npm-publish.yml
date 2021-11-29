@@ -25,4 +25,3 @@ jobs:
 
       - name: Publish lib to NPM
         run: npm publish --access public
-        continue-on-error: true
