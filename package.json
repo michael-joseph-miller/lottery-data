@@ -1,6 +1,6 @@
 {
   "name": "lottery-data",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Gets most current lottery data and histories",
   "author": "Michael Joseph Miller",
   "private": false,
